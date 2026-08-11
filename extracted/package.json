@@ -1,0 +1,20 @@
+{
+  "name": "aura-academy-sms",
+  "version": "1.0.0",
+  "description": "Full-stack School Management and Bus GPS Tracking system",
+  "scripts": {
+    "install-client": "npm install --prefix client",
+    "install-server": "npm install --prefix server",
+    "install-all": "npm run install-client && npm run install-server",
+    "build-client": "npm run build --prefix client",
+    "start": "node server/src/server.js",
+    "prod": "npm run build-client && npm run start"
+  },
+  "keywords": [
+    "school-management",
+    "biometric-attendance",
+    "gps-tracking"
+  ],
+  "author": "AuraAcademy",
+  "license": "ISC"
+}
